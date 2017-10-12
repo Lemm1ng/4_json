@@ -4,8 +4,7 @@ This script reads the json file and apply the pretty print procedure.
 
 # Quickstart
 Example of script launch on Windows, Python 3.5:
-```
-#!cmd
+```cmd
 
 python pprint_json.py
 <path to file>
