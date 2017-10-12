@@ -6,16 +6,14 @@ This script reads the json file and apply the pretty print procedure.
 Example of script launch on Windows, Python 3.5:
 ```cmd
 
-python pprint_json.py
-<path to file>
+python pprint_json.py <path to file>
 ```
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 
-$ python pprint_json.py 
-<path to file>
+$ python pprint_json.py <path to file>
 ```
 Input file:
 ```
