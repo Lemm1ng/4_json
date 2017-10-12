@@ -6,11 +6,11 @@ def load_data(filepath):
         return json.load(input_file)
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, indent=4))
+def pretty_print_json(input_json_data):
+    print(json.dumps(input_json_data, indent=4))
 
 
 if __name__ == '__main__':
     filepath = input()
-    data = load_data(filepath)
-    pretty_print_json(data)
+    input_json_data = load_data(filepath)
+    pretty_print_json(input_json_data)
