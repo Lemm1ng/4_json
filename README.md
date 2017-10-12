@@ -13,7 +13,7 @@ python pprint_json.py
 
 Example of script launch on Linux, Python 3.5:
 
-```#!bash
+```bash
 
 $ python pprint_json.py 
 <path to file>

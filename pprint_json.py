@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 def load_data(filepath):
@@ -11,6 +12,11 @@ def pretty_print_json(input_json_data):
 
 
 if __name__ == '__main__':
-    filepath = input()
-    input_json_data = load_data(filepath)
-    pretty_print_json(input_json_data)
+    if len(sys.argv) == 1:
+        print('Error. The pathway to the input file is not specified.')
+    elif len(sys.argv) == 2:
+        filepath = sys.argv[1]
+        input_json_data = load_data(filepath)
+        pretty_print_json(input_json_data)
+    else:
+        print('Error. More than one argument is specified.')
